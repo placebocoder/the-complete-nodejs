@@ -34,3 +34,4 @@ const log = console.log
 log(chalk.green('Success!'));
 log(chalk.red.underline.inverse('Underline success!'));
 log(chalk.blue.inverse('Failure!'));
+
