@@ -9,7 +9,12 @@ const addNode = (title, body) => {
     const notes = loadNotes()
     const duplicateNote = notes.find((note) => note.title === title)
 
-    if(duplicateNote === undefined) {
+    // console.log(duplicateNote)
+    // console.log(title)
+
+    // debugger
+
+    if(!duplicateNote) {
         notes.push({
             title: title,
             body: body
